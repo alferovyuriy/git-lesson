@@ -68,7 +68,10 @@
    git tag -d <имя_метки>
 
 15. Добавить удаленный (общий) репозиторий
-   git remote add origin <uri>
+   git remote add origin <url> => add repo
+   git remote set-url origin <url> => update repo
+   git remote rename <old name> <new name> => rename repo
+   git remote rm <name/origin> => delete repo
 
 16. Отправить изменения в удаленный репозиторий
    git push -u origin <ветка>
